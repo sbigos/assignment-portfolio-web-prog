@@ -5,6 +5,12 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
+}
+
+.name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2px;
 }
 
 .whole {
@@ -32,4 +38,28 @@ html, body {
 
 .profile-pic {
     border-radius: 50%;
+}
+
+.links {
+    list-style: square;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.links a:hover {
+    background-color: indianred;
+}
+
+.body {
+    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
