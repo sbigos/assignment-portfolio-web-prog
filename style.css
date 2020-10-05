@@ -10,20 +10,29 @@ html, body {
 
 .name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
 }
 
 .whole {
     background-color: lightsalmon;
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
-    height: 80%;
+    height: 100%;
+}
+
+.description {
+    text-align: center;
 }
 
 .left-side, .right-side {
     background-color: lavender;
-    margin: 5px;
+    margin: 10px;
     max-width: 50%;
     flex: 1;
     display: flex;
@@ -37,13 +46,15 @@ html, body {
 }
 
 .profile-pic {
-    border-radius: 50%;
+    border-radius: 35%;
+    align-self: center;
 }
 
 .links {
     list-style: square;
     padding-left: 0px;
     font-size: 18px;
+    text-align: center;
 }
 
 .links li {
